@@ -31,6 +31,7 @@ $wgMetaNamespace = "wiki";
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 $wgScriptPath = "/wiki";
 $wgArticlePath = "/wiki/$1";
+$wgUsePathInfo = true;
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer = "$WIKI_URL";
